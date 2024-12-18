@@ -9,4 +9,4 @@
 ### Play_Type_Classifier
 - This directory contains four different files, that together spit out a small bit about the chosen play using both the offense and defense, as well as many other facts about the current state of the game. It will say whether it was a run or a pass and the which gap, they ran through or the air yards on the pass.
 ### Yardage_Model
-- 
+- This directory contains four different modules that together predict the yardage on the play based on what it is. Two of the both the passing and running ones are quantile regressors, and contain different percentile points, and then there is a yard gain that is predicted at semi-random, with weights being based upon this skewwed funtion with varrying numbers of highs and lows. This allows it to have a good deal of variablity with how the games goes.
